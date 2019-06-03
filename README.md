@@ -35,3 +35,9 @@ Bunlara ek olarak docker hub'dan imajlar çekilmek istenirse aşağıdaki komutl
       docker pull aysenuroruc/log-watcher
       docker pull aysenuroruc/log-consumer
       docker pull aysenuroruc/prometheus
+      
+Tüm bunlara ek olarak, eğer Vagrant (VM)'da çalıştırmak isterseniz aşağıdaki adımları takip ediniz: 
+
+      vagrant up
+      vagrant ssh 
+      web browser'dan 10.10.3.20:9090 adresine gidiniz. 
