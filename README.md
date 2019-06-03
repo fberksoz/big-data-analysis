@@ -29,3 +29,9 @@ Servislerin log'ları incelenmek istenirse şu komutlar kullanılmalıdır:
       docker-compose logs log-creator
       docker-compose logs log-consumer
 
+Bunlara ek olarak docker hub'dan imajlar çekilmek istenirse aşağıdaki komutları kullanabilirsiniz:
+
+      docker pull aysenuroruc/log-creator
+      docker pull aysenuroruc/log-watcher
+      docker pull aysenuroruc/log-consumer
+      docker pull aysenuroruc/prometheus
